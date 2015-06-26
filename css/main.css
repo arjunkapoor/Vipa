@@ -1,0 +1,274 @@
+body {
+	background: #f3f1f0;
+	margin: 0;
+	height: auto;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	color: #9a9188;
+}
+
+
+#e_content {
+	position: relative;
+	min-height: 100%;
+}
+
+#e-header {
+	background: url('../design/site-bg.jpg') no-repeat top center;
+}
+
+#e-header-wc-0,
+#e-main-content,
+#footer-wc-0 {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.text {
+	padding: 5px;
+}
+
+#e-column-wc-0,
+#secondary-content {
+	display: table-cell;
+	vertical-align: top;
+	background: #fff;
+	color: #000
+}
+
+#e-column-wc-0 {
+	width: 600px;
+}
+
+#secondary-content {
+	width: 350px;
+	border-left: 15px solid #f3f1f0;
+}
+
+#e-main-content {
+	padding: 5px 0 220px;
+}
+
+.site-logo {
+	padding-top: 20px;
+}
+
+.header-extras {
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+
+.header-extras div {
+	display: inline-block;
+}
+
+.projects a {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background: #ff0000;
+	font-size: 14px;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	display: block;
+}
+
+.projects a:hover {
+	background-color: #ff8c00;
+}
+
+.site-search-form-inner input[type="submit"] {
+  background: url("../design/icon-search.png") no-repeat center;
+  border: 0;
+  display: block;
+  width: 25px;
+  height: 26px;
+  position: absolute;
+  right: 140px;
+  top: 0;
+}
+
+.primamry-nav {
+  padding-left: 37px;
+  position: relative;
+}
+
+.primary-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.primary-nav ul ul {
+  display: none;
+}
+
+.primary-nav ul > li {
+	position: relative;
+}
+
+.primary-nav > .menu-content > ul > li {
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+	text-transform: uppercase;
+	padding: 23px 45px 0 0;
+}
+
+.primary-nav > .menu-content > ul > li > a {
+  color: #9a9188;
+  text-decoration: none;
+} 
+
+.primary-nav > .menu-content > ul > li.first > a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.primary-nav > .menu-content > ul > li.second > a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.primary-nav > .menu-content > ul > li.third > a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.primary-nav ul ul li {
+	text-transform: none;
+	font-family: arial,sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	width: 100%;
+	display: block;
+	white-space: nowrap;
+	margin-right: -4px;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.primary-nav ul ul li:hover {
+	background: #555;
+	color: #fff;
+}
+
+.primary-nav ul ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 150px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.9s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+}	
+
+.primary-nav ul li ul li:hover { background: #ff0000; }
+.primary-nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.primary-nav ul ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 400;
+}
+
+.primary-nav ul ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px;
+  display: block;
+  width: 100%;
+  background: rgb(239,39,56);
+  background: rgba(239,39,56,0.8);
+  border-bottom: 1px solid #fff;
+  zoom:1;
+}
+
+/*---------------------------------------------------------------*/
+
+.announcements .header {
+	left: 0;
+	top: 0;
+	right: 0;
+	border: 0;
+	color: #fff;
+	background: #ff8c00;
+	padding: 10px 20px;
+}
+
+.quick-links, 
+.announcements {
+	margin: 0;
+	border-bottom: 5px solid #f3f1f0;
+	padding: 5px;
+}
+
+.quick-links .header {
+	left: 0;
+	top: 0;
+	right: 0;
+	border: 0;
+	color: #fff;
+	background: #ff0000;
+	padding: 10px 20px;
+}
+
+.quick-links ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.quick-links a {
+	background: url("../design/icon-arrow.png") no-repeat;
+	color: #ff8c00;
+	text-decoration: none;
+	padding: 5px 0 5px 20px;
+}
+
+.quick-links a:hover {
+	text-decoration: underline;
+}
+
+.quick-links li {
+	margin: 15px 0;
+}
+
+#featured-slides {
+	position: relative;
+	height: 345px;
+	overflow: hidden;
+	z-index: 200;
+}
+
+#footer {
+	position: relative;
+	margin-top: -50px;
+	height: 50px;
+	background: #fff
+}
